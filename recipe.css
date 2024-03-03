@@ -1,0 +1,50 @@
+/*Image section*/
+#img{
+    border-radius: 3%;
+    margin-right: 5%;
+}
+/*Simple Omlette Receipe*/
+#h1{
+    font-family:Outfit;
+}
+/*This is the Preparation Time Section*/
+.h3{
+    color:hsl(332,51%,32%);
+}
+.preparation{
+    background-color: hsl(330,110%,98%);
+    padding:50px;
+}
+.preparation li::marker{
+    color:hsl(332,51%,32%);
+}
+/*starting with ingredients*/
+.h2{
+    color:hsl(14,45%,36%);
+}
+.Ingredients li::marker, .Instructions li::marker{
+    color:hsl(14,45%,36%);
+}
+
+body{
+    margin:5%;
+    background-color: white;
+    padding:5%;
+    min-width: 250px;
+    
+}
+html{
+    background-color:rgb(200,100,100);
+}
+.nutrition table{
+    padding-left: min(5%,20px);
+    
+    
+    
+}
+.td2{
+    padding-left:80%;
+}
+table >tr{
+    border-bottom: 2px solid black;
+}
